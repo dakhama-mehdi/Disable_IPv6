@@ -12,8 +12,8 @@ This project provides PowerShell scripts designed to disable IPv6 on Windows net
 ## Usage
 
 1. Download or copy the scripts.
-2. Execute `Firewall_DisableIpv6.PS1` to apply firewall rules.
-3. Run `Manage-IPv6.ps1` to disable IPv6 on all network adapters.
+2. Execute `Firewall_DisableIpv6.PS1` to apply firewall rules on a elevated Powershell (run as admin)
+3. Run `Manage-IPv6.ps1` to disable IPv6 on all network adapters on a elevated Powershell (run as admin)
 
 ## Deployment via GPO
 
